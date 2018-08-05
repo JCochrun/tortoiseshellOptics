@@ -6,11 +6,10 @@ html {
 header {
   background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
   background-repeat:no-repeat;
-  background-size: 100%;
+  background-size: cover;
   height: 31rem;
   width: 100%;
   margin: 0;
-  padding-top: 1rem;
 }
 
 a {
@@ -68,7 +67,10 @@ footer img {
   width: 100%;
   font-family: Helvetica;
   font-size: 1rem;
-  margin: 1rem auto 10rem;
+  margin-top: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10rem;
 }
 
 .logo {
