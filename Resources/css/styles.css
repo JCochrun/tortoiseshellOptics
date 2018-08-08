@@ -138,3 +138,52 @@ nav span {
   width:35%;
   margin-right: 5%;
 }
+
+@media screen and (max-width:768px) {
+  .container {
+    width: 100%;
+  }
+
+  .navbar{
+    position: fixed;
+    margin-bottom: 5rem;
+  }
+
+  h1 {
+    font-size: 1.33rem;
+    padding: .75rem 4rem;
+    margin-right: 2rem;
+  }
+
+  header {
+    height: 22rem;
+  }
+  }
+}
+
+@media screen and (max-width: 480px){
+
+.container {
+  width: 100%;
+}
+
+.navbar {
+  position: fixed;
+  margin-bottom: 9rem;
+}
+
+header {
+  background-position: 20%;
+  height: 17rem;
+  margin-bottom: 3.77rem;
+}
+
+h1 {
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+}
